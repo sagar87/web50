@@ -66,3 +66,45 @@
 ```
 <link rel="stylesheet" href="styles.css">
 ```
+
+* `<div>` are arbitrary sections of the page
+
+```
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>My Web page!</title>
+        <style>
+            table {
+                border 2px solid black;
+                bordercollapse collapse;
+                width: 50%;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+            th {
+                background-color: light-grey;
+            }
+            div {
+                font-family: Arial, sans-serif;
+                font-size: 28px;
+                font-weight: bold;
+                color: blue;
+                text-align: center;
+                margin: ;
+                padding: ;
+                border: 5px dotted red;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+        Some text
+        </div>
+    </body>
+</html>
+```
+
