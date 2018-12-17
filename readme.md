@@ -33,8 +33,36 @@
             * `<h1>`
 ### CSS
 * example for a header
+
 ```
 <h1 style="color:blue;text-align:center;">welcome to my page</h1>
 ```
-    * CSS properties color and text-align
 
+* CSS properties color and text-align
+* with html color picker (in Google) we can pick exact hexcodes for each color
+* in this way however CSS and html code get mixed
+
+```
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>My Web page!</title>
+        <style>
+            h1 {
+                color: blue;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        Hello World!
+    </body>
+</html>
+```
+
+* here we put the style for h1 headers into the header which changes for all headings the color and alignment
+* we can even put the css code into a seperate file (define in `<head>`)
+
+```
+<link rel="stylesheet" href="styles.css">
+```
