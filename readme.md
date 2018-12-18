@@ -146,3 +146,5 @@
 </html>
 ```
 
+## Lecture 2: Python and JavaScript
+
