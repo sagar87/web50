@@ -108,3 +108,41 @@
 </html>
 ```
 
+* digging deeper intor div and span
+    * `id` attributes allow to name divs, can only be used once in a HTML
+    *  `span ` has the attributes `class` which can be used more often
+
+```
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>My Web page!</title>
+        <style>
+            #top {
+                font-size:36;
+            }
+            #middle {
+                font-size:24;
+            }
+            #bottom {
+                font-size:16;
+            }            
+            .name {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="top">
+            This is the <span class="name"> top</span> of my page.
+        </div>
+        <div id="middle">
+            This is the <span class="name">middle</span> of my page.
+        </div>
+        <div id="bottom">
+            This is the <span class="name">bottom</span> of my page.
+        </div>
+    </body>
+</html>
+```
+
